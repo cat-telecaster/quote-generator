@@ -58,16 +58,3 @@ for n in range(1,(file_amount+1)):
 # Save data to a text file according to sender name
 with open('### txt save path ###' + Name + '.txt', 'w') as f:
     f.writelines(collected_text)
-
-'''with open('/Users/kurti/PycharmProjects/quoteGenerator/Data/' + Name + '.csv', 'w') as f:
-  csv_writer = csv.writer(f)
-  for val in collected_text:
-    csv_writer.writerow([val])'''
-
-'''# Purge empty rows in csv file
-with open('/Users/kurti/PycharmProjects/quoteGenerator/Data/' + Name + '_raw.csv') as in_file:
-  with open('/Users/kurti/PycharmProjects/quoteGenerator/Data/' + Name + '.csv', 'w') as out_file:
-    writer = csv.writer(out_file)
-    for row in csv.reader(in_file):
-      if row:
-        writer.writerow(row)'''
