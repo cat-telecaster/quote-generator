@@ -1,5 +1,5 @@
 # quote-generator
-Quote generator using GPT-2 to generate quotes from a model finetuned based on a dataset from a Facebook messenger group chat. This was just a leisure project, as I was interested in torying around with the text generation capabilities of GPT-2.
+Quote generator using GPT-2 to generate quotes from a model finetuned based on a dataset from a Facebook messenger group chat. This was just a leisure project, as I was interested in toying around with the text generation capabilities of GPT-2.
 
 ## How to run
 Use trained GPT-2 simple model created from following this guide: https://minimaxir.com/2019/09/howto-gpt2/
